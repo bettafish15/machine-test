@@ -18,6 +18,7 @@ cd frontend
 yarn
 yarn start
 ```
+- Access to http://localhost:8080 to access the website
 - Start writing code!
 ## Things to improve
 - Add storybook for the React FE
