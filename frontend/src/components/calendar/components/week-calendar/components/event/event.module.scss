@@ -1,0 +1,86 @@
+.event-success {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 70%;
+  width: 90%;
+  background-color: green;
+  z-index: 1;
+  border-radius: 4px;
+  padding: 8px;
+  border: 1px solid #fff;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: .1px;
+  line-height: 15px;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+
+  &__title {
+    width: 100%;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: 8px;
+  }
+}
+
+.event-empty {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 70%;
+  width: 90%;
+  background-color: lightyellow;
+  z-index: 1;
+  border-radius: 4px;
+  padding: 8px;
+  border: 1px solid #fff;
+  font-size: 18px;
+  letter-spacing: .1px;
+  line-height: 15px;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+
+  &__title {
+    width: 100%;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: 8px;
+  }
+}
+
+.event-in-progress {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 70%;
+  width: 90%;
+  z-index: 1;
+  padding: 8px;
+  font-size: 15px;
+  letter-spacing: .1px;
+  line-height: 15px;
+  cursor: pointer;
+
+  &__title {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+}
