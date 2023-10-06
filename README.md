@@ -24,3 +24,5 @@ yarn start
 - Add testing for both FE and BE
 - add docker and docker-compose for developing more convenient
 - ...
+
+![image](https://github.com/bettafish15/machine-test/assets/40290448/a3af3b8f-5f75-42a6-89fb-e2e14bf33991)
