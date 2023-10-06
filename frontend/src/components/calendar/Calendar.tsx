@@ -10,7 +10,6 @@ interface ICalendarProps {
 
 const Calendar: FC<ICalendarProps> = () => {
   const { state, functions } = useCalendar({ selectedDate: new Date() });
-  console.log(state);
 
   return (
     <>

@@ -27,7 +27,7 @@ const getYearsInterval = (year: number) => {
 export const useCalendar = ({
   locale = "default",
   selectedDate: date,
-  firstWeekDayNumber = 2,
+  firstWeekDayNumber = 1,
 }: UseCalendarParams) => {
   const [mode, setMode] = React.useState<IModes>("week");
   const [selectedDay, setSelectedDay] = React.useState(createDate({ date }));
